@@ -11,7 +11,7 @@ print("Your name is: " + name)
 def firstRoom():
     print("Describe First Room")
     
-    userInput = input()
+    userInput = input("Where you want to go next? [l]eft, [r]ight, [d]ownwards? ")
 
     # Add conditional statements
     if userInput == "l":
