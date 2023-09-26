@@ -5,12 +5,15 @@ print("Introduction to Game")
 
 # Ask player for name
 name = input("Enter your name: ")
+print("Your name is: " + name)
 
 # Define what happens in first room
 def firstRoom():
     print("Describe First Room")
     
     userInput = input()
+
+    # Add conditional statements
     if userInput == "l":
         exitRoom()
     elif userInput == "r":
